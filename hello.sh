@@ -7,3 +7,4 @@ echo "Running on host: $(hostname)"
 echo "Hello from Jenkins Task-2"
 echo "This is my second Jenkins build triggered by GitHub!" #adding this line for testing the pipeline flow.
 echo "Build triggered automatically by GitHub webhook!" #added webhook now in Github repo, so checking the trigger again now.
+echo "Build triggered automatically by GitHub webhook! - Changed security group inbound rules as the webhook failed in git hub" #Github repo webhook failed, so checking the trigger again now.
