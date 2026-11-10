@@ -6,3 +6,4 @@ echo "Running on host: $(hostname)"
 # Print a message you can look for in the Jenkins console output
 echo "Hello from Jenkins Task-2"
 echo "This is my second Jenkins build triggered by GitHub!" #adding this line for testing the pipeline flow.
+echo "Build triggered automatically by GitHub webhook!" #added webhook now in Github repo, so checking the trigger again now.
